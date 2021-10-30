@@ -43,3 +43,7 @@ How to run
 *   Extract project folder if needed
 *   Go to the project folder and open a terminal emulator (Gnome Terminal, CMD...)
 *   Type 'npm start' and hit enter
+
+or
+
+[Click me!](https://617d4ce8e0b1aedc2eb2f1a3--zen-wilson-05f970.netlify.app/)
