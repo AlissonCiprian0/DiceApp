@@ -1,0 +1,29 @@
+.Die {
+    color: lightseagreen;
+    font-size: 5em;
+}
+.Die.rolling {
+    animation: roll .5s;
+}
+
+@keyframes roll {
+    0% {
+        margin-right: 0;
+        margin-left: 0;
+        transform: unset;
+    }
+    25% {
+        margin-right: 15px;
+        transform: rotate(-5deg);
+    }
+    75% {
+        margin-right: 0;
+        margin-left: 15px;
+        transform: rotate(3deg);
+    }
+    100% {
+        margin-right: 0;
+        margin-left: 0;
+        transform: unset;
+    }
+}
